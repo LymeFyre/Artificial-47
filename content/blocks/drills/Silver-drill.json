@@ -1,0 +1,19 @@
+{ 
+  "name": "Silver drill", 
+  "description": "Mines silver at a slow pace. Better than Airblast drills but requires large amount of power", 
+  "type": "Drill", 
+  "size": 1, 
+  "hasPower": true, 
+  "hasItems": true, 
+  "itemCapacity": 10, 
+  "tier": 5, 
+  "drillTime": 90, 
+  "rotateSpeed": 1, 
+  "consumes": { 
+  "power": 0.5, 
+   }, 
+  "requirements": 
+    "Silver/30",
+  ],
+  "category": "production",
+}
