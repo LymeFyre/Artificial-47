@@ -1,0 +1,13 @@
+{
+  "type": "SolarGenerator",
+  "name": "Silver panel",
+  "description": "The main source of power in planet A-47.",
+  "health": 40,
+  "size": 1,
+  "hasPower": true,
+  "powerProduction": 0.1,
+  "requirements": [
+    "Silver/5"
+  ],
+  "category": "power",
+}
