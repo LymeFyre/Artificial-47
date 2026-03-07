@@ -1,0 +1,21 @@
+{
+  "type": "mech",
+  "name": "Scout",
+  "description": "Light melee unit. Moderately armored but little range",
+  "speed": 0.8,
+  "health": 150,
+  "hitSize": 8,
+  "armor": 2,
+  "range": 32,
+  "fogRadius": 34,
+  "weapons": [
+    {
+      "reload": 12,
+      "y": 3,
+      "bullet": {
+        "type": "BulletType",
+        "damage": 15,
+      },
+    },
+  ],
+}
