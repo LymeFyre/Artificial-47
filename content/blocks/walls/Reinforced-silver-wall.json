@@ -1,0 +1,11 @@
+{
+  "name": "Reinforced silver wall",
+  "description": "Reinforced wall to protect structures even more.",
+  "type": "Wall",
+  "health": 1200,
+  "size": 1,
+  "requirements": [
+      "Silver/24"
+  ],
+  "category": "defense",
+}
