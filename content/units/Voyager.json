@@ -3,8 +3,8 @@
   "name": "Voyager",
   "description": "Sprays short-lived bullets with significant spread. Low range.",
   "flying": true,
-  "speed": 0.48,
-  "health": 600,
+  "speed": 0.58,
+  "health": 900,
   "hitSize": 14,
   "armor": 3,
   "range": 88,
@@ -16,7 +16,7 @@
       "shoot": {
         "shots": 9,
         "shotDelay": 1,
-      }
+      },
       "inaccuracy": 30,
       "bullet": {
         "type": "BasicBulletType",
@@ -25,6 +25,7 @@
         "height": 8,
         "speed": 3,
         "lifetime": 50,
+        "recoil": 5,
         "hitEffect": "flakExplosion",
         "frontColor": "ffffff",
         "backColor": "f3e979",
