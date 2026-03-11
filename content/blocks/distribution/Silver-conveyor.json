@@ -1,0 +1,14 @@
+{
+  "name": "Silver conveyor",
+  "description": "Transports items.",
+  "type": "ItemBridge",
+  "range": 5,
+  "size": 1,
+  "arrowPeriod": 0.8,
+  "arrowTimeScl": 2.5,
+  "pulse": true,
+  "requirements": [
+    "Silver/10"
+    ],
+  "category": "distribution"
+}

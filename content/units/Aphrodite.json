@@ -1,0 +1,93 @@
+{
+  "type": "flying",
+  "name": "Aphrodite",
+  "description": "Attacks with a laser turret and performs perforation with backup",
+  "flying": true,
+  "speed": 0.16,
+  "health": 3300,
+  "hitSize": 32,
+  "armor": 4,
+  "abilities": [
+    {
+      "type": "RepairFieldAbility",
+      "amount": 40,
+      "reload": 300,
+      "range": 80
+    }
+    ],
+  "weapons": [
+    {
+      "name": "Aphrodite-weapon",
+      "reload": 50,
+      "bullet": {
+        "type": "LaserBulletType",
+        "damage": 135,
+        "width": 5,
+        "length": 160,
+        "lifetime": 30,
+        "pierceCap": 1,
+        "sideAngle": 0,
+        "colors": [
+          "f3e97966"
+          "f3e979"
+          "ffffff"
+        ],
+      },
+    },
+    {
+      "reload": 400,
+      "mirror": false,
+      "shoot": {
+        "type": "ShootSpread"
+        "shots": 50,
+        "shotDelay": 2,
+      },
+      "shootStatus": "disarmed",
+      "shootStatusDuration": 150,
+      "bullet": {
+        "type": "BulletType",
+        "splashDamage": 144,
+        "splashDamageRadius": 32,
+        "recoil": -2.5,
+        "lifetime": 1,
+        "keepVelocity": false,
+      },
+    },
+    {
+      "reload": 401,
+      "angle": 180,
+      "mirror": false,
+      "predictTarget": false,
+      "bullet": {
+        "type": "FragBulletType",
+        "speed": 7,
+        "lifetime": 35,
+        "despawnEffect": "none",
+        "hitEffect": "none",
+        "frontColor": "ffffff",
+        "backColor": "f3e979",
+        "recoil": -100,
+        "width": 16,
+        "height": 20,
+        "lifetime": 25,
+        "fragBullets": 1,
+        "fragBullet": {
+          "type": "MissileBulletType",
+          "speed": 2,
+          "splashDamage": 45,
+          "splashDamageRadius": 16,
+          "frontColor": "ffffff",
+          "backColor": "f3e979",
+          "width": 10,
+          "height": 14,
+          "trailLength": 50,
+        },
+        "intervalBullets": 4,
+        "bulletInterval": 999,
+        "intervalRandomSpread": 0,
+        "intervalSpread": 90,
+        "intervalAngle": 45
+      }
+    }
+  ]
+}

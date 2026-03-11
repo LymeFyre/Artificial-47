@@ -1,0 +1,28 @@
+{
+  "type": "flying",
+  "name": "Scout",
+  "description": "Light scouting unit. Weak weapon but agile",
+  "speed": 1.4,
+  "health": 220,
+  "hitSize": 8,
+  "armor": 2,
+  "range": 72,
+  "fogRadius": 34,
+  "weapons": [
+    {
+      "reload": 80,
+      "y": 3,
+      "bullet": {
+        "type": "BasicBulletType",
+        "lifetime": 40,
+        "speed": 1,
+        "accel": 0.05,
+        "damage": 18,
+        "recoil": 2.5,
+        "mirror": false,
+        "width": 2,
+        "height": 10,
+      },
+    },
+  ],
+}

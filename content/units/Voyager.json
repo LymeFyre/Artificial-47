@@ -1,0 +1,36 @@
+{
+  "type": "flying",
+  "name": "Voyager",
+  "description": "Sprays short-lived bullets with significant spread. Low range.",
+  "flying": true,
+  "speed": 0.58,
+  "health": 900,
+  "hitSize": 14,
+  "armor": 3,
+  "range": 88,
+  "weapons": [
+    {
+      "reload": 60,
+      "y": 6,
+      "shootCone": 30,
+      "shoot": {
+        "shots": 9,
+        "shotDelay": 1,
+      },
+      "inaccuracy": 30,
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 14,
+        "width": 6,
+        "height": 8,
+        "speed": 3,
+        "lifetime": 50,
+        "recoil": 5,
+        "hitEffect": "flakExplosion",
+        "frontColor": "ffffff",
+        "backColor": "f3e979",
+        "keepVelocity": false,
+      }
+    }
+  ]
+}

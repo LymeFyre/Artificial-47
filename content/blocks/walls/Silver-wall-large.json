@@ -1,0 +1,11 @@
+{
+  "name": "Large silver wall",
+  "description": "Wall made from silver, protects structures.",
+  "type": "Wall",
+  "health": 2400,
+  "size": 1,
+  "requirements": [
+      "Silver/36"
+  ],
+  "category": "defense",
+}

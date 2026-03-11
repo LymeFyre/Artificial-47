@@ -1,0 +1,16 @@
+{
+  "type": "CoreBlock",
+  "name": "Core: Nexus",
+  "description": "The silver core. Creates a limited amount of power for the whole sector.",
+  "health": 750,
+  "size": 2,
+  "alwaysUnlocked": true,
+  "isFirstTier": true,
+  "unitType": "Vision",
+  "itemCapacity": 7000,
+  "buildCostModifier": 2,
+  "unitCapModifier": 0,
+  "requirements": [
+    "Silver/3500"
+    ]
+}

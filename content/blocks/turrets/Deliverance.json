@@ -1,0 +1,42 @@
+{
+  "type": "ItemTurret",
+  "name": "Deliverance",
+  "description": "Fires a homing missiles with great range and knockback but low single target damage and rate of fire",
+  "range": 240,
+  "size": 1,
+  "targetAir": true,
+  "targetGround": true,
+  "inaccuracy": 1,
+  "recoil": 1.1,
+  "reload": 140,
+  "shootCone": 30,
+  "ammoTypes": {
+      "Silver": {
+        "type": "MissileBulletType",
+        "lifetime": 80,
+        "speed": 3,
+        "splashDamageRadius": 16,
+        "splashDamage": 36,
+        "knockback": 5,
+        "impact": true,
+        "homingPower": 0.2,
+        "homingRange": 80,
+        "homingDelay": 10,
+        "frontColor": "fff3d6",
+        "backColor": "ffd59e",
+        "trailLength": 7,
+        "trailColor": "ffd59e",
+        "width": 5,
+        "height": 5,
+    },
+  },
+  "requirements": [
+    "Silver/65"
+    ],
+  "category": "turret",
+  "research": {
+  	"requirements": [
+  		"Silver/12"
+  	]
+  }
+}

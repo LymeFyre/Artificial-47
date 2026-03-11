@@ -1,0 +1,43 @@
+{
+  "type": "ItemTurret",
+  "name": "Salvation",
+  "description": "Fires 4 homing missiles similar to that of Deliverance's",
+  "range": 280,
+  "size": 2,
+  "targetAir": true,
+  "targetGround": true,
+  "inaccuracy": 1,
+  "recoil": 1.1,
+  "reload": 150,
+  "rotateSpeed": 0,
+  "shootCone": 180,
+  "shoot": {
+    "type": "ShootSpread",
+    "shots": 4,
+    "spread": 90
+  }
+  "ammoTypes": {
+      "Silver": {
+        "type": "MissileBulletType",
+        "lifetime": 90,
+        "speed": 3,
+        "splashDamageRadius": 18,
+        "splashDamage": 64,
+        "knockback": 5,
+        "impact": true,
+        "homingPower": 0.3,
+        "homingRange": 80,
+        "homingDelay": 30,
+        "frontColor": "fff3d6",
+        "backColor": "ffd59e",
+        "trailLength": 8,
+        "trailColor": "ffd59e",
+        "width": 5,
+        "height": 5,
+    },
+  },
+  "requirements": [
+    "Silver/400"
+    ],
+  "category": "turret"
+}
