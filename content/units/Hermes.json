@@ -3,8 +3,8 @@
   "name": "Hermes",
   "description": "Attacks with a barrage of bullets in a spread. Occasionally charges up to rapidly launch explosive shells with high recoil. periodically gives shield to allies.",
   "flying": true,
-  "speed": 0.11,
-  "health": 6300,
+  "speed": 0.18,
+  "health": 2700,
   "hitSize": 32,
   "armor": 3,
   "abilities": [
@@ -66,21 +66,39 @@
       "mirror": false,
       "predictTarget": false,
       "shootStatus": "disarmed",
-      "shootStatusDuration": 96
+      "shootStatusDuration": 96,
       "shoot": {
         "shots": 6,
         "shotDelay": 16,
-      }
+      },
       "bullet": {
         "type": "FragBulletType",
         "speed": 4,
-        "splashDamage": 87,
-        "splashDamageRadius": 16,
+        "splashDamage": 110,
+        "splashDamageRadius": 32,
+        "frontColor": "ffffff",
+        "backColor": "f3e979",
         "recoil": 25,
-        "width": 8,
+        "width": 16,
         "height": 20,
         "lifetime": 25,
         "fragBullets": 0,
+        "intervalBullet": {
+          "type": "MissileBulletType",
+          "speed": 2,
+          "splashDamage": 45,
+          "splashDamageRadius": 16,
+          "frontColor": "ffffff",
+          "backColor": "f3e979",
+          "width": 10,
+          "height": 14,
+          "trailLength": 50,
+        },
+        "intervalBullets": 4,
+        "bulletInterval": 999,
+        "intervalRandomSpread": 0,
+        "intervalSpread": 90,
+        "intervalAngle": 45
       }
     }
   ]
