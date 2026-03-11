@@ -1,0 +1,26 @@
+{
+  "type": "flying",
+  "name": "Vision",
+  "description": "Spawned by the Nexus core. Superior builder qualities but unarmed.",
+  "flying": true,
+  "speed": 6.4,
+  "health": 400,
+  "hitSize": 12,
+  "armor": 0,
+  "range": 48,
+  "buildSpeed": 5,
+  "abilities": [
+      {
+      "type": "ForceFieldAbility",
+      "radius": 60,
+      "max": 600,
+      "regen": 0.3,
+      "cooldown": 180,
+      "sides": 16,
+    }
+  ],
+  "isEnemy": false,
+  "accel": 0.15,
+  "drag": 0.15,
+  "itemCapacity": 75,
+}
