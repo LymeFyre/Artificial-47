@@ -12,7 +12,7 @@
   "consumes": { 
   "power": 0.5, 
    }, 
-  "requirements": 
+  "requirements": [
     "Silver/30",
   ],
   "category": "production",
