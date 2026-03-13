@@ -2,10 +2,10 @@
   "name": "Large Reinforced silver wall",
   "description": "Wall made from silver, protects structures.",
   "type": "Wall",
-  "health": 4800,
+  "health": 6400,
   "size": 2,
   "requirements": [
-      "Silver/96"
+      "Silver/144"
   ],
   "category": "defense",
 }
