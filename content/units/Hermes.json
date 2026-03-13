@@ -3,23 +3,24 @@
   "name": "Hermes",
   "description": "Attacks with a barrage of bullets in a spread. Occasionally charges up to rapidly launch explosive shells with high recoil. periodically gives shield to allies.",
   "flying": true,
-  "speed": 0.18,
+  "speed": 0.6,
   "health": 2700,
-  "hitSize": 32,
-  "armor": 3,
+  "hitSize": 7,
+  "armor": 4,
   "abilities": [
     {
       "type": "ShieldRegenFieldAbility",
-      "amount": 25,
+      "amount": 50,
       "max": 50,
-      "reload": 120,
+      "reload": 240,
       "range": 80
     }
     ]
   "weapons": [
     {
       "reload": 84,
-      "y": 12,
+      "x": 0,
+      "y": 1,
       "shoot": {
         "type": "ShootSpread"
         "shots": 6,
@@ -41,6 +42,7 @@
     {
       "reload": 72,
       "y": 12,
+      "x": 0,
       "shoot": {
         "type": "ShootSpread"
         "shots": 5,
@@ -68,20 +70,20 @@
       "shootStatus": "disarmed",
       "shootStatusDuration": 96,
       "shoot": {
-        "shots": 6,
-        "shotDelay": 16,
+        "shots": 7,
+        "shotDelay": 9,
       },
       "bullet": {
         "type": "FragBulletType",
-        "speed": 4,
+        "speed": 5,
         "splashDamage": 110,
         "splashDamageRadius": 32,
         "frontColor": "ffffff",
         "backColor": "f3e979",
-        "recoil": 25,
+        "recoil": 10,
         "width": 16,
         "height": 20,
-        "lifetime": 25,
+        "lifetime": 20,
         "fragBullets": 0,
         "intervalBullet": {
           "type": "MissileBulletType",
@@ -95,7 +97,7 @@
           "trailLength": 50,
         },
         "intervalBullets": 4,
-        "bulletInterval": 999,
+        "bulletInterval": 26,
         "intervalRandomSpread": 0,
         "intervalSpread": 90,
         "intervalAngle": 45

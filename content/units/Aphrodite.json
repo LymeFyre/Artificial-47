@@ -3,10 +3,10 @@
   "name": "Aphrodite",
   "description": "Attacks with a laser turret and performs perforation with backup",
   "flying": true,
-  "speed": 0.16,
-  "health": 3300,
-  "hitSize": 32,
-  "armor": 4,
+  "speed": 0.56,
+  "health": 3400,
+  "hitSize": 7,
+  "armor": 5,
   "abilities": [
     {
       "type": "RepairFieldAbility",
@@ -18,7 +18,9 @@
   "weapons": [
     {
       "name": "Aphrodite-weapon",
-      "reload": 50,
+      "mirror": false,
+      "x": 0,
+      "reload": 40,
       "bullet": {
         "type": "LaserBulletType",
         "damage": 135,
@@ -37,6 +39,7 @@
     {
       "reload": 400,
       "mirror": false,
+      "x": 0,
       "shoot": {
         "type": "ShootSpread"
         "shots": 50,
@@ -48,7 +51,7 @@
         "type": "BulletType",
         "splashDamage": 144,
         "splashDamageRadius": 32,
-        "recoil": -2.5,
+        "recoil": -1,
         "lifetime": 1,
         "keepVelocity": false,
       },
@@ -56,6 +59,7 @@
     {
       "reload": 401,
       "angle": 180,
+      "x": 0,
       "mirror": false,
       "predictTarget": false,
       "bullet": {
@@ -66,11 +70,12 @@
         "hitEffect": "none",
         "frontColor": "ffffff",
         "backColor": "f3e979",
-        "recoil": -100,
+        "recoil": 50,
         "width": 16,
         "height": 20,
         "lifetime": 25,
         "fragBullets": 1,
+        "fragAngle": 45,
         "fragBullet": {
           "type": "MissileBulletType",
           "speed": 2,
