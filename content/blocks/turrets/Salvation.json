@@ -1,43 +1,49 @@
 {
   "type": "ItemTurret",
   "name": "Salvation",
-  "description": "Fires 4 homing missiles similar to that of Deliverance's",
-  "range": 280,
+  "description": "Fires silver homing missiles similar to that of Deliverance's",
+  "range": 220,
   "size": 2,
   "targetAir": true,
   "targetGround": true,
-  "inaccuracy": 1,
-  "recoil": 1.1,
-  "reload": 150,
-  "rotateSpeed": 0,
+  "inaccuracy": 12,
+  "recoil": 0,
+  "reload": 160,
   "shootCone": 180,
   "shoot": {
     "type": "ShootSpread",
-    "shots": 4,
-    "spread": 90
+    "shots": 16,
+    "spread": 90,
+    "shotDelay": 1.5
   }
   "ammoTypes": {
       "Silver": {
         "type": "MissileBulletType",
-        "lifetime": 90,
-        "speed": 3,
-        "splashDamageRadius": 18,
-        "splashDamage": 64,
-        "knockback": 5,
+        "lifetime": 70,
+        "speed": 4,
+        "splashDamageRadius": 16,
+        "splashDamage": 46,
+        "knockback": 4,
         "impact": true,
-        "homingPower": 0.3,
+        "angle": 45,
+        "homingPower": 0.4,
         "homingRange": 80,
-        "homingDelay": 30,
+        "homingDelay": 8,
         "frontColor": "fff3d6",
         "backColor": "ffd59e",
-        "trailLength": 8,
+        "trailLength": 7,
         "trailColor": "ffd59e",
-        "width": 5,
-        "height": 5,
+        "width": 3,
+        "height": 6,
     },
   },
   "requirements": [
     "Silver/400"
     ],
-  "category": "turret"
+  "category": "turret",
+  "research":{
+  	"requirements": [
+  		"Silver/6"
+  	]
+  }
 }
