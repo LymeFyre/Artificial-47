@@ -9,9 +9,6 @@
   "inaccuracy": 12,
   "recoil": 1.1,
   "reload": 200,
-  "shoot": [
-    "shotDelay": 6,
-  ],
   "shootCone": 30,
   "ammoTypes": {
       "Silver": {
