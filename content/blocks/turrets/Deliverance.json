@@ -10,7 +10,6 @@
   "recoil": 1.1,
   "reload": 200,
   "shoot": [
-    "shots": 3,
     "shotDelay": 6,
   ],
   "shootCone": 30,
