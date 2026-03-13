@@ -3,7 +3,7 @@
   "description": "Wall made from silver, protects structures.",
   "type": "Wall",
   "health": 4800,
-  "size": 1,
+  "size": 2,
   "requirements": [
       "Silver/96"
   ],
