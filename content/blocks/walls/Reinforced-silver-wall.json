@@ -2,10 +2,10 @@
   "name": "Reinforced silver wall",
   "description": "Reinforced wall to protect structures even more.",
   "type": "Wall",
-  "health": 1200,
+  "health": 1600,
   "size": 1,
   "requirements": [
-      "Silver/24"
+      "Silver/36"
   ],
   "category": "defense",
 }
